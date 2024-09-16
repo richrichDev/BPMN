@@ -1,0 +1,14 @@
+.modeler-container {
+  display: flex;
+  height: 100vh;
+}
+
+.bpmn-diagram {
+  flex: 1;
+  border: 1px solid #ccc;
+}
+
+.properties-panel {
+  width: 300px;
+  border-left: 1px solid #ccc;
+}

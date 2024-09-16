@@ -1,0 +1,42 @@
+{
+    "name": "Custom",
+    "prefix": "custom",
+    "uri": "http://custom",
+    "xml": {
+      "tagAlias": "lowerCase"
+    },
+    "associations": [],
+    "types": [
+      {
+        "name": "CustomStartEvent",
+        "extends": [
+          "bpmn:StartEvent"
+        ],
+        "properties": [
+          {
+            "name": "custom",
+            "isAttr": true,
+            "type": "String"
+          }
+        ]
+      },
+      {
+        "name": "CustomUserTask",
+        "extends": [
+          "bpmn:UserTask"
+        ],
+        "properties": [
+          {
+            "name": "customUrl",
+            "isAttr": true,
+            "type": "String"
+          },
+          {
+            "name": "customExposedModule",
+            "isAttr": true,
+            "type": "String"
+          }
+        ]
+      }
+    ]
+  }
